@@ -22,9 +22,9 @@ alert (‘hello world’)
 +	Belarussian State Economic University - Higher School of Management and Business
 +	Stormnet – Front- End Developer (not finish)
 +	From 0 to 1 – [Markup Developer](http://fs.getcourse.ru/fileservice/file/download/a/92698/sc/179/h/badf30ace5bee7722820c534716a4533.png)
-] 
+
 ## *Language*
 +	Russian – native
 +	English – [A2](https://examinator.epam.com/Main/PersonalAssignments/245657)
 ## *Link*
-+   https://github.com/uladban/rsschool-cv
++   [GitHub](https://github.com/uladban/rsschool-cv)
