@@ -3,8 +3,9 @@
 +	Adress :  Republic of  Belarus, Minsk, 2nd lane Bagratsion
 +	Tel: +375-29-699-87-86
 +	e-mail: vlad.banek@gmail.com
-+	[Telegram:][@vladbani]
-+	[Github:][@uladban]
++	Telegram: @vladbani
++	Github: @uladban
++   Discord: Vladimir Bankouski(@uladban)
 ## *About Me*
 I was born in Minsk. 37 years old. Now I work as a sales manager of computer equipment but I want to change the field of activity
 ## *Skills*
