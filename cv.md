@@ -7,7 +7,7 @@
 +	Github: @uladban
 +   Discord: Vladimir Bankouski(@uladban)
 ## *About Me*
-I was born in Minsk. 37 years old. Now I work as a sales manager of computer equipment but I want to change the field of activity
++   I was born in Minsk. 37 years old. Now I work as a sales manager of computer equipment but I want to change the field of activity
 ## *Skills*
 + HTML
 + CSS
