@@ -26,4 +26,5 @@ alert (‘hello world’)
 ## *Language*
 +	Russian – native
 +	English – [A2](https://examinator.epam.com/Main/PersonalAssignments/245657)
-
+## *Link*
++   https://github.com/uladban/rsschool-cv
