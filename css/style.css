@@ -41,8 +41,10 @@ a:hover{
 }
 .header,
 .footer{
-    background-color: #eee8dd;
-    
+    background-color: #eee8dd;    
+}
+.header{
+    margin-bottom: 50px;
 }
 .header__nav-list{
     display: flex;
@@ -54,11 +56,59 @@ a:hover{
     padding: 0 20px;
     line-height: 50px;
 }
-
-
-
-
-
+.main__inner{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+}
+section{
+    width: 48%;
+    margin: 20px 10px;
+}
+.photo{
+    max-width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+h1, h2, h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 48px;
+    line-height: 56px;
+}
+h2, h2{
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.first-name{
+    font-weight: 500;
+}
+.main__name{
+    position: relative;
+}
+.main__name-inner{
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(0 -50%);
+}
+.name{
+    position: relative;
+    margin-bottom: 20px;
+}
+.name::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 189px;
+    height: 1px;
+    width: 150px;
+    background-color: brown;
+    border: 1px solid brown;
+}
 
 
 
