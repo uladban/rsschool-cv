@@ -1,8 +1,11 @@
 *{
-    box-sizing: border-box;    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;    
 }
 body{    
     font-family: 'Poppins', sans-serif;
@@ -10,24 +13,32 @@ body{
     font-size: 16px;
     line-height: 26px;
     color: brown;
-    background-color: #fdfdfd;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    background-color: #fdfdfd;    
+    
+}
+html,
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 a{
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
+    transition: .5s;
+}
+a:hover{
+    color: #967171;
 }
 .container {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0;
 }
-.header
-{
-    background-color: #e0e0e0;
-    max-height: 100%;
+.header{
+    background-color: #eee8dd;
+    
 }
 .nav__list{
     display: flex;
@@ -38,4 +49,42 @@ a{
 .nav__link{
     padding: 0 20px;
     line-height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{   
+    background-color: #eee8dd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 150px;
+}
+.footer__copy-inner,
+.footer__github-link,
+.footer__rsschool-link{
+    display: block;
+}
+.footer__rsschool-logo{
+    max-width: 100px;
 }
