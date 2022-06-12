@@ -44,13 +44,13 @@ a:hover{
     background-color: #eee8dd;
     
 }
-.nav__list{
+.header__nav-list{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     list-style: none;
 }
-.nav__link{
+.header__nav-link{
     padding: 0 20px;
     line-height: 50px;
 }
