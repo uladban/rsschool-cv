@@ -14,7 +14,10 @@ body{
     line-height: 26px;
     color: brown;
     background-color: #fdfdfd;    
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 html,
 body{
@@ -36,7 +39,8 @@ a:hover{
     margin: 0 auto;
     padding: 0;
 }
-.header{
+.header,
+.footer{
     background-color: #eee8dd;
     
 }
@@ -59,32 +63,32 @@ a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer{   
-    background-color: #eee8dd;
+.footer__inner{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    max-height: 150px;
+    padding: 20px;
 }
-.footer__copy-inner,
-.footer__github-link,
-.footer__rsschool-link{
-    display: block;
+
+.rsschool-logo{
+    width: 75px;
 }
-.footer__rsschool-logo{
-    max-width: 100px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
