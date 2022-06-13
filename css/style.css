@@ -122,7 +122,13 @@ section{
     justify-content: space-between;
     padding: 20px;
 }
-
+.github-link{
+    margin-left: 35px;
+   
+}
+.github-logo{
+    width: 35px;  
+}
 .rsschool-logo{
     width: 75px;
 }
