@@ -116,23 +116,6 @@ section{
     position: relative;
     margin-bottom: 25px;
 }
-section:nth-child(n+3)::after{
-    content: '';
-    position: absolute;
-    bottom: -20px;
-    left: 175px;
-    height: 1px;
-    width: 350px;    
-    background-color: brown;
-    border: 1px solid brown;
-}
-.main__interests::after,
-.main__projects::after{
-    height: 0 !important;
-    border: 0 !important;
-}
-
-
 .footer__inner{
     display: flex;
     align-items: center;
