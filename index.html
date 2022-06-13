@@ -1,13 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV-HTML</title>
-</head>
-<body>
-    <h1>Uladzimir Bankouski</h1>
-    <img src="./images/avatar.jpg" alt="Avatar">
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style></style>
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link href="./css/normalize.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="#contacts" class="header__nav-link">Contacts</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#about" class="header__nav-link">About</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#education" class="header__nav-link">Education</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#skills" class="header__nav-link">Skills</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#code" class="header__nav-link">Code</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#language" class="header__nav-link">Language</a>
+            </li>
+            <li class="header__nav-item">
+                <a href="#interests" class="header__nav-link">Interests</a>
+              </li>
+             <li class="header__nav-item">
+                <a href="#projects" class="header__nav-link">Projects</a>
+              </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container">
+        <div class="main__inner">
+          <div class="main__photo">
+            <img src="./assets/img/avatar.jpg" alt="avatar" class="photo" />
+          </div>
+          <section class="main__name">
+            <div class="main__name-inner">
+              <h1 class="name">
+                <span class="first-name">Uladzimir</span> Bankouski
+              </h1>
+              <h3 class="vacant">Junior Front-End Developer</h3>
+            </div>
+          </section>
+          <section class="main__contacts" id="contacts">
+            <h2 class="contacts__title title">Contacts</h2>
+            <nav class="contacts__list">
+              <ul>
+                <li class="contact-item adress">
+                  220037, Republic of Belarus, Minsk, Bagratsiona 2nd lane,
+                  19/68
+                </li>
+                <li class="contact-item phone">
+                  Tel: <a href="tel:+375296998786">+375(29)699-87-86</a>
+                </li>
+                <li class="contact-item">
+                  E-mail:
+                  <a href="mailto:vlad.banek@gmail.com">vlad.banek@gmail.com</a>
+                </li>
+                <li class="contact-item">
+                  Telegram: <a href="https://telegram.me/vladbani">@vladbani</a>
+                </li>
+                <li class="contact-item">
+                  Discord:
+                  <a href="https://discord.gg/W7kCKPJS"
+                    >Vladimir Bankouski(@uladban)</a
+                  >
+                </li>
+                <li class="contact-item">
+                  GitHub: <a href="https://github.com/uladban">uladban</a>
+                </li>
+              </ul>
+            </nav>
+          </section>
+          <section class="main__about" id="about">
+            <h2 class="about__title title">About</h2>
+            I was born in Minsk. 37 years old. Now I work as a sales manager of
+            computer equipment but I want to change the field of activity. I
+            like programming. My goal is to learn JavaScript and take offer to
+            IT-company
+          </section>
+          <section class="main__skills" id="skills">
+            <h2 class="skills__title title">Skills</h2>
+            <ul class="skills__list">
+              <li class="skill-item">HTML</li>
+              <li class="skill-item">CSS</li>
+              <li class="skill-item">Figma</li>
+              <li class="skill-item">Git, GitHub</li>
+              <li class="skill-item">MS Office</li>
+            </ul>
+          </section>
+          <section class="main__education" id="education">
+            <h2 class="education__title title">Education & Courses</h2>
+            <ul class="education__list">
+              <li class="education__link">
+                Belarusian National Technical University - Faculty of
+                Information Technology and Robotics
+              </li>
+              <li class="education__link">
+                Belarussian State Economic University - Higher School of
+                Management and Business
+              </li>
+              <li class="education__link">
+                Stormnet – Front- End Developer (not finish)
+              </li>
+              <li class="education__link">
+                From 0 to 1 –
+                <a
+                  href="http://fs.getcourse.ru/fileservice/file/download/a/92698/sc/179/h/badf30ace5bee7722820c534716a4533.png"
+                  >Markup Developer</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="main__code" id="code">
+            <h2 class="code__title title">Code Examples</h2>
+            <code>alert('Hello World!')</code>
+          </section>
+          <section class="main__language" id="language">
+            <h2 class="language__title title">Language</h2>
+            <ul class="language__list">              
+                <li class="language-item">Russian</li>
+                <li class="language-item">Belarusian</li>
+                <li class="language-item">
+                  English -
+                  <a
+                    href="https://examinator.epam.com/Main/PersonalAssignments/245657"
+                    >A2</a
+                  >
+                </li>              
+            </ul>
+          </section>
+          <section class="main__interests" id="interests">
+            <h2 class="interests__title title">Interests</h2>
+            <ul class="interests__list">              
+                <li class="interest-item">Football</li>
+                <li class="interest-item">Running</li>
+                <li class="interest-item">Reading</li>
+                <li class="interest-item">Music</li>
+                <li class="interest-item">Films</li>              
+            </ul>
+          </section>
+          <section class="main__projects" id="projects">
+            <h2 class="projects__title title">My projects</h2>
+            <a href="https://uladban.github.io/rsschool-cv/">CV</a>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__copy">
+            copyright &copy; 2022
+            <a href="https://github.com/uladban" class="github-link"
+              >Uladzimir Bankouski</a
+            >
+          </div>
+          <div class="footer__rsschool">
+            <a href="https://rs.school/js/" class="rsschool-link">
+              <img
+                src="./assets/svg/rs_school_js.svg"
+                alt="rsschool logo"
+                class="rsschool-logo"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
 </html>
